@@ -5,6 +5,9 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="tela_login.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-scale=1.0">
+
 </head>
 <body>
 
@@ -17,11 +20,15 @@
 			<img src="nava_login.png">
 			<div class="login">
 				<img src="">
-				<h3 class="usuario">ID ou E-mail</h3>
-				<input type="text" name="text_login"><!--aqui é o login-->
-
-				<h3 class="senha">Senha</h3>
-				<input type="password" name="senha_login"><!--aqui é a senha-->
+				<label>
+					<h3 class="usuario">ID ou E-mail</h3>
+				
+					<input type="text" name="text_login"><!--aqui é o login-->
+				</label>
+				<label>
+					<h3 class="senha">Senha</h3>
+					<input type="password" name="senha_login"><!--aqui é a senha-->
+				</label>
 			</div><!--login-->
 
 			<!-- aqui é a opção para manter conectado ao login-->
@@ -50,13 +57,12 @@
 				<div class="espaco_final"></div><!--espaco_final-->
 				
 			</div><!--google_facebook-->
+			<div class="id_senha_inscrever">
+				<a href=""><span class="id_senha">Esqueceu o ID ou Senha?</span></a>
+				<br>
+				<a href=""><span class="Cadastre-se">Criar conta</span></a>
+			</div><!--id_senha_inscrever-->
 	</fieldset>
 	</form><!--formulario-login-->
-	<div class="id_senha_inscrever">
-		<a href=""><span class="id_senha">Esqueceu o ID ou Senha?</span></a>
-		<br>
-		<a href=""><span class="Cadastre-se">Cadastre-se</span></a>
-	</div><!--id_senha_inscrever-->
-
 </body>
 </html>
